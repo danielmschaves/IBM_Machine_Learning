@@ -2,7 +2,6 @@
 
 In this repository, I have created a Jupyter Notebook where I implemented some of the popular classification algorithms that I learned during my data science course.
 
-- Steps Included
 - Importing the Required Libraries
 - Importing the Dataset
 - Data Preprocessing
