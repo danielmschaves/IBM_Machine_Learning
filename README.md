@@ -42,7 +42,7 @@ In this step, I have implemented the SVM algorithm to predict whether it will ra
 9. Report:
 In this step, I have generated a report using the models that we created in the previous steps. The report includes various evaluation metrics for each model and the comparison of their performance.
 
-Conclusion
+## Conclusion
 
 In this project, we explored various classification algorithms for predicting whether it will rain tomorrow based on the weather conditions of the current day. We used a dataset that contained observations of weather metrics for each day from 2008 to 2017. We performed one-hot encoding to convert categorical variables to binary variables and replaced the values of the 'RainTomorrow' column, changing them from a categorical column to a binary column.
 
