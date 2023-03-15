@@ -48,11 +48,12 @@ In this project, we explored various classification algorithms for predicting wh
 
 We then used the following classification algorithms:
 
-Linear Regression
-K-Nearest Neighbors (KNN)
-Decision Trees
-Logistic Regression
-Support Vector Machines (SVM)
+- Linear Regression
+- K-Nearest Neighbors (KNN)
+- Decision Trees
+- Logistic Regression
+- Support Vector Machines (SVM)
+
 We evaluated the performance of each algorithm using the following metrics: Accuracy Score, Jaccard Index, F1-Score, and LogLoss (only for Logistic Regression).
 
 Here is a summary of the results:
