@@ -27,7 +27,7 @@ In this repository, I have created a Jupyter Notebook where I implemented some o
     - Create and train a KNN model called KNN using the training data (x_train, y_train) with the n_neighbors parameter set to 4.
     - Now use the predict method on the testing data (x_test) and save it to the array predictions.
     - Using the predictions and the y_test dataframe calculate the value for each metric using the appropriate function.
-    - 
+    
 - Decision Tree
     - Create and train a Decision Tree model called Tree using the training data (x_train, y_train).
     - Now use the predict method on the testing data (x_test) and save it to the array predictions.
@@ -44,7 +44,7 @@ In this repository, I have created a Jupyter Notebook where I implemented some o
     - Now use the predict method on the testing data (x_test) and save it to the array predictions.
     - Using the predictions and the y_test dataframe calculate the value for each metric using the appropriate function.
     
--Report
+- Report
     - Show the Accuracy, Jaccard Index, F1-Score, and LogLoss in a tabular format using data frame for all of the above models.
 
 ## Conclusion
