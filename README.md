@@ -13,34 +13,39 @@ In this repository, I have created a Jupyter Notebook where I implemented some o
 - Report
 
 ## Phases
--1 Import the required libraries
--2 Importing the Dataset
-Data Preprocessing
-Linear Regression
-Use the train_test_split function to split the features and Y dataframes with a test_size of 0.2 and the random_state set to 10.
-Create and train a Linear Regression model called LinearReg using the training data (x_train, y_train).
-Now use the predict method on the testing data (x_test) and save it to the array predictions.
-Using the predictions and the y_test dataframe calculate the value for each metric using the appropriate function.
-Show the MAE, MSE, and R2 in a tabular format using data frame for the linear model.
-KNN
-Create and train a KNN model called KNN using the training data (x_train, y_train) with the n_neighbors parameter set to 4.
-Now use the predict method on the testing data (x_test) and save it to the array predictions.
-Using the predictions and the y_test dataframe calculate the value for each metric using the appropriate function.
-Decision Tree
-Create and train a Decision Tree model called Tree using the training data (x_train, y_train).
-Now use the predict method on the testing data (x_test) and save it to the array predictions.
-Using the predictions and the y_test dataframe calculate the value for each metric using the appropriate function.
-Logistic Regression
-Use the train_test_split function to split the features and Y dataframes with a test_size of 0.2 and the random_state set to 1.
-Create and train a LogisticRegression model called LR using the training data (x_train, y_train) with the solver parameter set to liblinear.
-Now, use the predict method on the testing data (x_test) and save it to the array predictions.
-Using the predictions and the y_test dataframe calculate the value for each metric using the appropriate function.
-SVM
-Create and train a SVM model called SVM using the training data (x_train, y_train).
-Now use the predict method on the testing data (x_test) and save it to the array predictions.
-Using the predictions and the y_test dataframe calculate the value for each metric using the appropriate function.
-Report
-Show the Accuracy, Jaccard Index, F1-Score, and LogLoss in a tabular format using data frame for all of the above models.
+- Import the required libraries
+- Importing the Dataset
+- Data Preprocessing
+- Linear Regression
+    - Use the train_test_split function to split the features and Y dataframes with a test_size of 0.2 and the random_state set to 10.
+    - Create and train a Linear Regression model called LinearReg using the training data (x_train, y_train).
+    - Now use the predict method on the testing data (x_test) and save it to the array predictions.
+    - Using the predictions and the y_test dataframe calculate the value for each metric using the appropriate function.
+    - Show the MAE, MSE, and R2 in a tabular format using data frame for the linear model.
+    
+- KNN
+    - Create and train a KNN model called KNN using the training data (x_train, y_train) with the n_neighbors parameter set to 4.
+    - Now use the predict method on the testing data (x_test) and save it to the array predictions.
+    - Using the predictions and the y_test dataframe calculate the value for each metric using the appropriate function.
+    - 
+- Decision Tree
+    - Create and train a Decision Tree model called Tree using the training data (x_train, y_train).
+    - Now use the predict method on the testing data (x_test) and save it to the array predictions.
+    - Using the predictions and the y_test dataframe calculate the value for each metric using the appropriate function.
+    
+- Logistic Regression
+    - Use the train_test_split function to split the features and Y dataframes with a test_size of 0.2 and the random_state set to 1.
+    - Create and train a LogisticRegression model called LR using the training data (x_train, y_train) with the solver parameter set to liblinear.
+    - Now, use the predict method on the testing data (x_test) and save it to the array predictions.
+    - Using the predictions and the y_test dataframe calculate the value for each metric using the appropriate function.
+    
+- SVM
+    - Create and train a SVM model called SVM using the training data (x_train, y_train).
+    - Now use the predict method on the testing data (x_test) and save it to the array predictions.
+    - Using the predictions and the y_test dataframe calculate the value for each metric using the appropriate function.
+    
+-Report
+    - Show the Accuracy, Jaccard Index, F1-Score, and LogLoss in a tabular format using data frame for all of the above models.
 
 ## Conclusion
 
